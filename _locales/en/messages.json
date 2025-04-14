@@ -1,0 +1,11 @@
+{
+  "extension_name": {
+    "message": "Auto open links"
+  },
+  "extension_description": {
+    "message": "Keep pointer over a link to automatically open it"
+  },
+  "context_menu_my_other_extensions": {
+    "message": "★★ My other extensions ★★"
+  }
+}
