@@ -3,9 +3,9 @@
     "message": "Auto open links"
   },
   "extension_description": {
-    "message": "Keep mouse pointer over a link to automatically open it"
+    "message": "Mantieni il puntatore del mouse su un link per aprirlo automaticamente"
   },
   "context_menu_my_other_extensions": {
-    "message": "★★ My other extensions ★★"
+    "message": "★★ Altre estensioni mie ★★"
   }
 }

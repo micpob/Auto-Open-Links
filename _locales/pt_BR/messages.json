@@ -1,0 +1,11 @@
+{
+  "extension_name": {
+    "message": "Auto open links"
+  },
+  "extension_description": {
+    "message": "Mantenha o ponteiro do mouse sobre um link para abri-lo automaticamente"
+  },
+  "context_menu_my_other_extensions": {
+    "message": "★★ Minhas outras extensões ★★"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extension_name": {
+    "message": "Auto open links"
+  },
+  "extension_description": {
+    "message": "Maintenez le pointeur de la souris sur un lien pour l'ouvrir automatiquement"
+  },
+  "context_menu_my_other_extensions": {
+    "message": "★★ Mes autres extensions ★★"
+  }
+}
