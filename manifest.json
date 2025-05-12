@@ -20,6 +20,10 @@
     "service_worker": "bg-wrapper.js"
   },
   "permissions": ["storage", "contextMenus"],
+  "options_ui": {
+    "page": "Options/options.html",
+    "open_in_tab": true
+  },
   "content_scripts": [
     {
       "js": ["injectScript.js"],

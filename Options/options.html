@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Auto Open Links options</title>
+  <link rel="shortcut icon" type="image/png" href="Res/Icons/icon32.png"/>
+  <link rel="stylesheet" type="text/css" href="options.css">
+</head>
+<body>
+  <main>
+    <h1 data-text="options_page_title"></h1>
+    <h2>
+      <span data-text="wait_time_option"></span>
+      <input type="number" id="wait_time" size="6" min="0.1" step="0.1" value="1">
+    </h2>
+    <h2 id="open_link_in_new_tab_setter" class="inactive">
+      <div>
+        <span data-text="open_link_in_new_tab_option"></span>
+        <label class="switch"> <input type="checkbox" id="open_link_in_new_tab_switch"> <span class="slider"></span> </label>
+        <span id="on_off_label_open_link_in_new_tab">off</span>
+      </div>
+    </h2>
+    <h2 id="go_to_new_tab_setter" class="inactive">
+      <div>
+        <span data-text="go_to_new_tab_option"></span>
+        <label class="switch"> <input type="checkbox" id="go_to_new_tab_switch"> <span class="slider"></span> </label>
+        <span id="on_off_label_go_to_new_tab">off</span>
+      </div>
+    </h2>
+    <button data-text="close_page_button" id="close"></button> 
+  </main>  
+</body>
+<script src="options.js"></script>
+</html>

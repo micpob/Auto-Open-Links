@@ -1,15 +1,20 @@
-let newOver
+let autoOpenLinksNewHover
 
 document.addEventListener('mouseover', (e) => {
   const anchor = e.target.closest("a")
   if (!anchor) return                      
-  console.log(anchor.href)
-  newOver = setTimeout(() => {
-    console.log('sending message')
-    chrome.runtime.sendMessage({url: anchor.href})
-  }, 1000)
-  anchor.addEventListener('mouseout', (e) => { 
-    console.log('clearing timeout')
-    clearTimeout(newOver)
-  }) 
+  chrome.storage.local.get(['active', 'waitTime', 'openLinkInNewTab'], (result) => {
+    if (result.active) {
+      autoOpenLinksNewHover = setTimeout(() => {
+        if (result.openLinkInNewTab) {
+          chrome.runtime.sendMessage({url: anchor.href})
+        } else {
+          window.open(anchor.href, '_self')
+        }
+      }, result.waitTime)
+      anchor.addEventListener('mouseout', (e) => { 
+        clearTimeout(autoOpenLinksNewHover)
+      }) 
+    }
+  })  
 })
