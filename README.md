@@ -6,7 +6,7 @@ In the options page you can also set if you want the links to be opened in the *
 
 <br/>
 <div align="center" >
-  <img src="Res/gifs/selection.gif" alt="Copy on Select auto copy" width="450px" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);">
+  <img src="Docs/Screenshots/options.png" alt="Auto open links options page" width="450px" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);">
 </div>
 <br/>
 
